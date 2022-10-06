@@ -3,9 +3,7 @@ import Test from "./components/Test.vue";
 </script>
 
 <template>
-  <div class="container">
+  <div class="">
     <Test />
   </div>
 </template>
-
-<style></style>

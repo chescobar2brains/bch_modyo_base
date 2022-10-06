@@ -1,11 +1,16 @@
 <template>
-  <div>
-    <h1>Testing</h1>
+  <div class="bg-primary-ultra_dark">
+    <div
+      class="text-backup-yellow flex gap-2 items-center justify-center text-xl bg-brand-dark"
+    >
+      <span class="icos-pagos-masivos"></span>
+      <p class="">Testing Minerva</p>
+    </div>
   </div>
 </template>
 
 <script setup>
-import API from "@/assets/helpers/newModyoAPI.js";
+import API from "@/api/newModyoAPI";
 
 const newApi = API("personas", "nuevo-beneficio");
 
@@ -14,10 +19,4 @@ try {
 } catch (error) {}
 </script>
 
-<style lang="scss" scoped>
-// Using this should get you the variables
-@import "../sass/color-system-bch";
-h1 {
-  color: $primary;
-}
-</style>
+<style lang="scss" scoped></style>

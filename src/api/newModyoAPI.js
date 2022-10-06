@@ -1,4 +1,4 @@
-import ModyoSDK from "../helpers/ModyoClient"
+import ModyoSDK from "./ModyoClient"
 
 const API = (space, type) => {
     const content = ModyoSDK.getContentType(space, type);
